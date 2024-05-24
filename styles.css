@@ -1,0 +1,38 @@
+:root {
+
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: "outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    max-width: 440px;
+    width: 80%;
+    text-wrap: balance;
+    background-color:white;
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+
+    img {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    h1 {
+        font-weight: 700;
+        color: hsl(218, 44%, 22%);
+        font-size: calc(1rem + 1vw);
+    }
+
+    p {
+        font-weight: 400;
+        color: hsl(220, 15%, 55%);
+        font-size: calc(0.75rem + 1vw);
+    }
+}
